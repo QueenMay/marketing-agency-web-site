@@ -1,0 +1,310 @@
+:root {
+    --primary-color: rgb(111, 182, 244);
+    --hover-color: rgb(101, 169, 228);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+svg {
+    margin: 20px;
+    margin-left: 50px;
+    padding: 10px 20px;
+
+}
+
+.header-content-nav {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    margin: 20px;
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 10px 20px;
+}
+
+.nav-link:hover {
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+
+.nav-link-btn {
+    background-color: var(--primary-color);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 4px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+
+.nav-link-btn:hover {
+    background-color: var(--hover-color);
+}
+
+.first-screen-section {
+    height: 500px;
+    background-image: url('./img/people-office.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 3%, rgba(255, 255, 255, 0));
+}
+
+h1 {
+    color: aliceblue;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    font-weight: bold;
+    /* 100 - 900 */
+    font-family: 'Roboto Slab', serif;
+    font-size: 55px;
+}
+
+h2 {
+    color: aliceblue;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+
+
+}
+
+.cta-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    text-decoration: none;
+    top: 370px;
+    left: 150px;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.cta-btn:hover {
+    background-color: var(--hover-color);
+}
+
+h3 {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.services-section {
+    display: flex;
+    justify-content: center;
+}
+
+.span-with-line {
+    border-bottom: 4px solid var(--primary-color);
+    width: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.two {
+    border-bottom: 3px solid rgb(210, 204, 204);
+}
+
+.services-pictures-section {
+    display: flex;
+    justify-content: center;
+    margin: 30px 40px;
+}
+
+.image-block {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-section {
+    background-color: var(--primary-color);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about-us-pic-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.round {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    margin-top: 20px;
+}
+
+.round-num {
+    border: 3px solid aliceblue;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+p {
+    color: aliceblue;
+    line-height: 30px;
+}
+
+#h3-white {
+    color: aliceblue;
+}
+
+.round span {
+    color: aliceblue;
+}
+
+.our-work-section {
+    display: flex;
+    justify-content: center;
+    height: 750px;
+}
+
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.conteiner-big {
+    width: 900px;
+}
+
+h4 {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    /* position: relative; */
+    color: aliceblue;
+}
+
+h4:hover {
+    cursor: pointer;
+    background-color: var(--hover-color);
+}
+
+#first-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#brand {
+    color: aliceblue;
+    background-image: url(./img/medium-shot-man-wearing-vr-glasses.jpg);
+}
+
+#Copywriting {
+    color: aliceblue;
+    background-image: url(./img/close-up-photo-oil-paints-canvas-wall.jpg);
+    flex-grow: 2;
+}
+
+#second-line {
+    display: flex;
+    justify-content: center;
+}
+
+#brand-analysis {
+    background-image: url(./img/colleagues-making-business-plan-meeting.jpg);
+    flex-grow: 2;
+}
+
+#marketing-planning {
+    background-image: url(./img/high-angle-gamer-playing-indoors.jpg);
+}
+
+#third-line {
+    display: flex;
+    justify-content: center;
+}
+
+#content-production {
+    background-image: url(./img/medium-shot-man-wearing-vr-glasses.jpg);
+
+}
+
+#SMM {
+    background-image: url(./img/people-office.jpg);
+    flex-grow: 2;
+}
+
+.contact {
+    width: 90px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
